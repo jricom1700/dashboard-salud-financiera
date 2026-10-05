@@ -448,7 +448,7 @@ if st.session_state.pagina_actual == paginas[0]:
     analisis_card("El ciclo de vida productivo roto", [
         "La <b>Generación Z</b> arranca con un ingreso de <b>$6,928 MXN</b>, el punto de entrada más bajo del mercado laboral formal.",
         "Los <b>Millennials</b> alcanzan el pico de liquidez con <b>$8,000 MXN</b>, pero es aquí donde la desigualdad entre hombres y mujeres empieza a dispararse hacia los altos ingresos.",
-        "La <b>Generación X</b> enfrenta una caída adelantada en sus bolsillos: la mitad de ellos sobrevive con <b>$7,000 MXN</b> o menos, un claro síntoma de que están siendo expulsados del mercado formal.",
+        "La <b>Generación X</b> enfrenta una caída adelantada: la mitad de ellos sobrevive con <b>$7,000 MXN</b> o menos, un claro síntoma de que están siendo expulsados del mercado formal.",
         "Los <b>Boomers</b> colapsan en subsistencia con <b>$5,000 MXN</b>, desmintiendo la idea de que la vejez trae acumulación.",
     ])
 
@@ -456,11 +456,10 @@ if st.session_state.pagina_actual == paginas[0]:
         "Los <b>hombres</b> concentran su ingreso central en <b>$8,208 MXN</b>, con una distribución más amplia hacia ingresos altos.",
         "Las <b>mujeres</b> se agrupan abruptamente en alrededor de los <b>$6,000 MXN</b>, una brecha del <b>36%</b> respecto a los hombres.",
         "Las labores de <b>cuidado no remuneradas</b> y la precariedad laboral atrapan a las mujeres en la base de la pirámide.",
-        "Esta asfixia financiera es un <b>fallo sistémico</b>, no individual: el mercado no compensa el trabajo invisible.",
     ])
 
     st.caption(
-        "*Nota metodológica: La expectativa del crecimiento del ingreso conforme a la edad y experiencia se fundamenta "
+        "*Nota: La expectativa del crecimiento del ingreso conforme a la edad y experiencia se fundamenta "
         "empíricamente en la Teoría del Capital Humano (Becker, 1964; Mincer, 1974) y la Hipótesis del Ciclo de Vida "
         "(Modigliani, 1954).*"
     )
@@ -585,7 +584,7 @@ elif st.session_state.pagina_actual == paginas[1]:
         "El detonante no es solo el bajo salario, sino la <b>magnitud del faltante mensual</b>: a mayor déficit, mayor colapso emocional.",
         "Las <b>mujeres</b> somatizan una carga de angustia significativamente mayor ante las mismas carencias económicas.",
         "Los <b>Millennials</b> son la generación más asfixiada: sus picos de ansiedad <b>superan el 80%</b> ante desfases severos.",
-        "El estrés financiero <b>no es una preocupación pasajera</b>: es un fallo estructural que erosiona la salud mental de la fuerza laboral.",
+        "El estrés financiero <b>no es una preocupación pasajera</b>: es un fallo estructural que persiste hasta la vejez.",
     ])
 
     col_h1, col_h2 = st.columns(2)
