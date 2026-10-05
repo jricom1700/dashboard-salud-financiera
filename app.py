@@ -454,7 +454,7 @@ if st.session_state.pagina_actual == paginas[0]:
 
     analisis_card("La brecha salarial de género", [
         "Los <b>hombres</b> concentran su ingreso central en <b>$8,208 MXN</b>, con una distribución más amplia hacia ingresos altos.",
-        "Las <b>mujeres</b> se agrupan abruptamente en al rededr de los <b>$6,000 MXN</b>, una brecha del <b>36%</b> respecto a los hombres.",
+        "Las <b>mujeres</b> se agrupan abruptamente en alrededor de los <b>$6,000 MXN</b>, una brecha del <b>36%</b> respecto a los hombres.",
         "Las labores de <b>cuidado no remuneradas</b> y la precariedad laboral atrapan a las mujeres en la base de la pirámide.",
         "Esta asfixia financiera es un <b>fallo sistémico</b>, no individual: el mercado no compensa el trabajo invisible.",
     ])
